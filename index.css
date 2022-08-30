@@ -1,0 +1,105 @@
+body {
+    padding: 20px;
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+  
+    background-repeat: no-repeat;
+    object-fit:fill;
+}
+
+#mainform {
+    background-color:purple;
+    color:whitesmoke;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Baloo Bhai';
+   
+
+}
+
+#name {
+    margin: 20px;
+}
+
+#email {
+    margin-left: 16px;
+    padding: auto;
+
+}
+
+#number {
+    margin-left: 33px;
+    width: 168px;
+    margin-top: 10px;
+
+}
+
+#dropdown {
+    margin: 10px;
+
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color:rgb(194, 141, 194);
+    color: white;
+
+    border: 1px solid white;
+
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+
+
+}
+
+#title {
+    text-align: center;
+  /* /\  text-decoration: underline; */
+    animation: typing 1.5s steps(10) infinite;
+    text-overflow: clip;
+
+    display: inline;
+    text-shadow: 4px 4px 1px crimson;
+    animation-direction:alternate-reverse;
+
+
+
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
+
+@keyframes typing {
+    50% {
+        left: 100%;
+        margin: 0px 20px 30px 20px;
+        text-transform: uppercase;
+        text-decoration-style: wavy;
+    }
+}
+
+#description {
+    text-align: center;
+
+}
+
+.form-control textarea {
+    width: 400px;
+
+}
